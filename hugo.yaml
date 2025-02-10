@@ -1,0 +1,33 @@
+baseURL : 'https://example.org/'
+languageCode : zh-cn
+title : 'looksaw Blog'
+theme : 'stack' 
+
+
+pagination:
+  pagerSize: 10
+
+
+copyright : "looksaw"
+
+defaultContentLanguage : "zh-cn"
+hasCJKLanguage : true
+
+
+params :
+  mainSection: 
+    -post
+  featuredImageField: image
+  rssFullContent: true
+  favicon: "/favicon.ico"
+
+  sidebar:
+        compact: true
+        emoji: 😜
+        subtitle: 'This is looksaw Blog'
+        avatar:
+            enabled: true
+            local: true
+            src: img/avatar.png
+
+
